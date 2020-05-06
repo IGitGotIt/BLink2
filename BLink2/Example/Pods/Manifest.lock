@@ -1,0 +1,16 @@
+PODS:
+  - BLink2 (0.1.0)
+
+DEPENDENCIES:
+  - BLink2 (from `../`)
+
+EXTERNAL SOURCES:
+  BLink2:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BLink2: 78f0d6033b4c3afe496f670a758126a6ac4cea31
+
+PODFILE CHECKSUM: e8cb7d03d350c3be0e57e4126704975ec3367e1c
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BLink2_Tests' do
+  pod 'BLink2', :path => '../'
+  
+  
+end
