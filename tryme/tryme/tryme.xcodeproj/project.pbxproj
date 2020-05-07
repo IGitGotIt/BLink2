@@ -15,6 +15,7 @@
 		1FF3344824638B92001A13CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF3344624638B92001A13CC /* LaunchScreen.storyboard */; };
 		1FF3345324638B92001A13CC /* trymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3345224638B92001A13CC /* trymeTests.swift */; };
 		1FF3345E24638B92001A13CC /* trymeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF3345D24638B92001A13CC /* trymeUITests.swift */; };
+		E36E57CD394C93F3F56A5245 /* Pods_tryme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E7856DF13404172DD7360D /* Pods_tryme.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008D35752DDC064EE93B48A6 /* Pods-tryme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tryme.release.xcconfig"; path = "Target Support Files/Pods-tryme/Pods-tryme.release.xcconfig"; sourceTree = "<group>"; };
 		1FF3343824638B91001A13CC /* tryme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF3343B24638B91001A13CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FF3343D24638B91001A13CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		1FF3345924638B92001A13CC /* trymeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trymeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF3345D24638B92001A13CC /* trymeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trymeUITests.swift; sourceTree = "<group>"; };
 		1FF3345F24638B92001A13CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		420B5292FB3F5F5C0D5DD895 /* Pods-tryme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tryme.debug.xcconfig"; path = "Target Support Files/Pods-tryme/Pods-tryme.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E7856DF13404172DD7360D /* Pods_tryme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tryme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36E57CD394C93F3F56A5245 /* Pods_tryme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA8C9B765DA77C60D8CC0FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				420B5292FB3F5F5C0D5DD895 /* Pods-tryme.debug.xcconfig */,
+				008D35752DDC064EE93B48A6 /* Pods-tryme.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1FF3342F24638B91001A13CC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +98,8 @@
 				1FF3345124638B92001A13CC /* trymeTests */,
 				1FF3345C24638B92001A13CC /* trymeUITests */,
 				1FF3343924638B91001A13CC /* Products */,
+				1EA8C9B765DA77C60D8CC0FA /* Pods */,
+				35D18321B2BB385874345764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,14 @@
 			path = trymeUITests;
 			sourceTree = "<group>";
 		};
+		35D18321B2BB385874345764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E7856DF13404172DD7360D /* Pods_tryme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FF3346224638B92001A13CC /* Build configuration list for PBXNativeTarget "tryme" */;
 			buildPhases = (
+				F06DFEFE2402ED70DFA78504 /* [CP] Check Pods Manifest.lock */,
 				1FF3343424638B91001A13CC /* Sources */,
 				1FF3343524638B91001A13CC /* Frameworks */,
 				1FF3343624638B91001A13CC /* Resources */,
+				D7F25296AB32090C5DE98F6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7F25296AB32090C5DE98F6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tryme/Pods-tryme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tryme/Pods-tryme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tryme/Pods-tryme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F06DFEFE2402ED70DFA78504 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tryme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FF3343424638B91001A13CC /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		1FF3346324638B92001A13CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420B5292FB3F5F5C0D5DD895 /* Pods-tryme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +519,7 @@
 		};
 		1FF3346424638B92001A13CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008D35752DDC064EE93B48A6 /* Pods-tryme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

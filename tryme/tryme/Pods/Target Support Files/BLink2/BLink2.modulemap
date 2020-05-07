@@ -1,0 +1,6 @@
+framework module BLink2 {
+  umbrella header "BLink2-umbrella.h"
+
+  export *
+  module * { export * }
+}
