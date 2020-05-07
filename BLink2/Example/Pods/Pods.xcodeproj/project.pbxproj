@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FF333F224637666001A13CC /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF333F124637666001A13CC /* BlinkingLabel.swift */; };
+		0A6EEDCF21BAFFE7A3851F11FFCC1E09 /* BLink2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79966A837CE2DA9455373614538CDCFA /* BLink2-dummy.m */; };
 		362615324D224614E9560CBE165AFB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		42DA2D9BE3A9F655440D31D69C8615D5 /* Pods-BLink2_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28451EE42D76EAB04529566641DDA259 /* Pods-BLink2_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		42E0136C54C34AF5AA7F3807D6573B39 /* Pods-BLink2_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D600998657CF75FCB4E365ADC538F726 /* Pods-BLink2_Tests-dummy.m */; };
 		4770F15F5B9972D1557B8A192FEBA418 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CAA6FA02309CF2FEADDDDE52D3E815FF /* BLink2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C0AD3C5950339E2EBB088EA801BA54 /* BLink2-dummy.m */; };
-		DA61CC33C3FF4BB5136F35345D769C2D /* BLink2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3821EF819496E3C169115ABE11C56C /* BLink2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA61CC33C3FF4BB5136F35345D769C2D /* BLink2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD41C14CE0025BEDA19E7FCAEA2306E /* BLink2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9D1A7D5D34F5E9D3BE1FD630F82A87 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B70BC636E86688A4172DDC7C6B61BD /* BlinkingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,29 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05945A987D07C765D43009FE0EAB8E99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0682B94816D828EC0C77C6C5D0FE6347 /* Pods-BLink2_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLink2_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		092B886362C0BD8C4104EA130FD94C4A /* BLink2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLink2.modulemap; sourceTree = "<group>"; };
 		12AA440446CB0C2586066C0D791FD75D /* Pods-BLink2_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BLink2_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		14E518C9EEC4DDFE63F49357A6E25325 /* BLink2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLink2.debug.xcconfig; sourceTree = "<group>"; };
 		1DCCCAC43A76C80271FCAD7BD466C76C /* Pods-BLink2_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLink2_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1FF333F124637666001A13CC /* BlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
 		28451EE42D76EAB04529566641DDA259 /* Pods-BLink2_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BLink2_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2FF27A9E315C62B208A0D359F23E196D /* BLink2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BLink2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF27A9E315C62B208A0D359F23E196D /* BLink2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLink2.framework; path = BLink2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3263BF591A6B107473973351E99D9C5B /* BLink2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLink2.release.xcconfig; sourceTree = "<group>"; };
-		35B789B277237766D0DBF46CA005A084 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		58BB12834559875ECBA180DE7135495F /* Pods-BLink2_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BLink2_Tests.modulemap"; sourceTree = "<group>"; };
-		5B5F6201F4B3844BC70C43E33F4DC0D3 /* BLink2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BLink2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6D3821EF819496E3C169115ABE11C56C /* BLink2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLink2-umbrella.h"; sourceTree = "<group>"; };
+		6BDE8D31FEBA2319D7B5B1EA298DB639 /* BLink2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLink2-Info.plist"; sourceTree = "<group>"; };
 		78E00888F3748F3E492DA744C444EFA6 /* Pods-BLink2_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BLink2_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7CE7D1541B34BF8C920BB5AD1BA26CEB /* Pods_BLink2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BLink2_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		955DD92A525486BBF6C2653C678A1B43 /* BLink2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BLink2.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79966A837CE2DA9455373614538CDCFA /* BLink2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLink2-dummy.m"; sourceTree = "<group>"; };
+		7CE7D1541B34BF8C920BB5AD1BA26CEB /* Pods_BLink2_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BLink2_Tests.framework; path = "Pods-BLink2_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD41C14CE0025BEDA19E7FCAEA2306E /* BLink2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLink2-umbrella.h"; sourceTree = "<group>"; };
+		91A50D901894AFA6E536FA7AE20FFC9C /* BLink2.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BLink2.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BC221845B3B9931AC47C9E8B1EE539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		98DA8818685BB9E1CB53201A2A0D006A /* BLink2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLink2.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9B70BC636E86688A4172DDC7C6B61BD /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = BLink2/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
 		B9B1378B94A83C309AE0CC8D5E914005 /* Pods-BLink2_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BLink2_Tests-Info.plist"; sourceTree = "<group>"; };
+		BC03A49A6FEBC19B6FC97398CBFAE5F3 /* BLink2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLink2-prefix.pch"; sourceTree = "<group>"; };
+		C948F124C0A231323C7AE2E5B3B6ADFE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D600998657CF75FCB4E365ADC538F726 /* Pods-BLink2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BLink2_Tests-dummy.m"; sourceTree = "<group>"; };
-		D8C0AD3C5950339E2EBB088EA801BA54 /* BLink2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLink2-dummy.m"; sourceTree = "<group>"; };
-		F20CD1817CE8D76F75301CC0EA3EE2BF /* BLink2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BLink2-Info.plist"; sourceTree = "<group>"; };
-		F356E1925AD6296D141CCE55419458BE /* BLink2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLink2-prefix.pch"; sourceTree = "<group>"; };
+		F0FFED6764067E36CC5693003E77C9F9 /* BLink2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLink2.debug.xcconfig; sourceTree = "<group>"; };
 		F6E09191FA70FF8D1621537B995247B4 /* Pods-BLink2_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BLink2_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,9 +84,34 @@
 		3ED7D4D400F7D7D0C0CD93F575FA330D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C407AD167FB54C652F025FDCE89AB1C8 /* BLink2 */,
+				C4E5ABE93C199F5FAA36878D773C5663 /* BLink2 */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		594DA369058AF8D93111D28EB6689742 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				092B886362C0BD8C4104EA130FD94C4A /* BLink2.modulemap */,
+				79966A837CE2DA9455373614538CDCFA /* BLink2-dummy.m */,
+				6BDE8D31FEBA2319D7B5B1EA298DB639 /* BLink2-Info.plist */,
+				BC03A49A6FEBC19B6FC97398CBFAE5F3 /* BLink2-prefix.pch */,
+				8FD41C14CE0025BEDA19E7FCAEA2306E /* BLink2-umbrella.h */,
+				F0FFED6764067E36CC5693003E77C9F9 /* BLink2.debug.xcconfig */,
+				98DA8818685BB9E1CB53201A2A0D006A /* BLink2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BLink2";
+			sourceTree = "<group>";
+		};
+		63F28ECE2EABBC7A74FEE54D526C4316 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				91A50D901894AFA6E536FA7AE20FFC9C /* BLink2.podspec */,
+				97BC221845B3B9931AC47C9E8B1EE539 /* LICENSE */,
+				C948F124C0A231323C7AE2E5B3B6ADFE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		94A02D6CE0416BD9CDF72F88942122A9 /* Pods-BLink2_Tests */ = {
@@ -115,16 +140,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A108B2B9563BB359A0D11D66F0983223 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5B5F6201F4B3844BC70C43E33F4DC0D3 /* BLink2.podspec */,
-				35B789B277237766D0DBF46CA005A084 /* LICENSE */,
-				05945A987D07C765D43009FE0EAB8E99 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,12 +148,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C407AD167FB54C652F025FDCE89AB1C8 /* BLink2 */ = {
+		C4E5ABE93C199F5FAA36878D773C5663 /* BLink2 */ = {
 			isa = PBXGroup;
 			children = (
-				A108B2B9563BB359A0D11D66F0983223 /* Pod */,
-				D7B038E41D186195413ED25468382A78 /* Support Files */,
-				1FF333F124637666001A13CC /* BlinkingLabel.swift */,
+				A9B70BC636E86688A4172DDC7C6B61BD /* BlinkingLabel.swift */,
+				63F28ECE2EABBC7A74FEE54D526C4316 /* Pod */,
+				594DA369058AF8D93111D28EB6689742 /* Support Files */,
 			);
 			name = BLink2;
 			path = ../..;
@@ -161,21 +176,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7B038E41D186195413ED25468382A78 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				955DD92A525486BBF6C2653C678A1B43 /* BLink2.modulemap */,
-				D8C0AD3C5950339E2EBB088EA801BA54 /* BLink2-dummy.m */,
-				F20CD1817CE8D76F75301CC0EA3EE2BF /* BLink2-Info.plist */,
-				F356E1925AD6296D141CCE55419458BE /* BLink2-prefix.pch */,
-				6D3821EF819496E3C169115ABE11C56C /* BLink2-umbrella.h */,
-				14E518C9EEC4DDFE63F49357A6E25325 /* BLink2.debug.xcconfig */,
-				3263BF591A6B107473973351E99D9C5B /* BLink2.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BLink2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +205,7 @@
 			buildConfigurationList = 0B4D7422A228F109FDBDA89F997E65EE /* Build configuration list for PBXNativeTarget "BLink2" */;
 			buildPhases = (
 				E1AD7696BCF4F07A1739E23D44CE4ED7 /* Headers */,
-				46549A5A80B4E862A665A18F3DB1BE7A /* Sources */,
+				8906D296AE571B5751A3A4A33C62F9F1 /* Sources */,
 				7595F6BDABFA0927BF27065878371EA4 /* Frameworks */,
 				9CA60BED5069BED5D8E86374D851B211 /* Resources */,
 			);
@@ -245,11 +245,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					4162A1C24A03992538DE30817573AE11 = {
-						LastSwiftMigration = 1130;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -296,12 +291,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46549A5A80B4E862A665A18F3DB1BE7A /* Sources */ = {
+		8906D296AE571B5751A3A4A33C62F9F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA6FA02309CF2FEADDDDE52D3E815FF /* BLink2-dummy.m in Sources */,
-				1FF333F224637666001A13CC /* BlinkingLabel.swift in Sources */,
+				0A6EEDCF21BAFFE7A3851F11FFCC1E09 /* BLink2-dummy.m in Sources */,
+				FD9D1A7D5D34F5E9D3BE1FD630F82A87 /* BlinkingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +398,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -509,9 +505,8 @@
 		};
 		DD4E8C5CB39E6E558B16B5695993CBC7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3263BF591A6B107473973351E99D9C5B /* BLink2.release.xcconfig */;
+			baseConfigurationReference = 98DA8818685BB9E1CB53201A2A0D006A /* BLink2.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -542,9 +537,8 @@
 		};
 		FB594B55E707E70FDDB2AFD6F34B2584 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14E518C9EEC4DDFE63F49357A6E25325 /* BLink2.debug.xcconfig */;
+			baseConfigurationReference = F0FFED6764067E36CC5693003E77C9F9 /* BLink2.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -565,7 +559,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";

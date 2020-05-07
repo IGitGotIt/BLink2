@@ -29,9 +29,8 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'BLink2/Classes/*.{h,m,swift}'
-
+  #s.source_files = 'BLink2/Classes/*.{h,m,swift}'
   # s.resource_bundles = {
   #   'BLink2' => ['BLink2/Assets/*.png']
   # }
