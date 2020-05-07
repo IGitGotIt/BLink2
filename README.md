@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/opentok/opentok-ios-sdk-samples.svg?branch=develop)](https://travis-ci.org/opentok/opentok-ios-sdk-samples)
 
-OpenTok iOS SDK Samples
+OpenTok Jaideep iOS SDK Samples
 =======================
 
 This repository is meant to provide some examples for you to better understand
