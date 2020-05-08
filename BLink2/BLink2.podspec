@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLink2'
-  s.version          = '1.14'
+  s.version          = '1.21'
   s.summary          = 'A subclass on UILabel that provides a blink.'
 
 # This description is used to generate tags and improve search results.
@@ -21,19 +21,20 @@ Pod::Spec.new do |s|
 This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.
                        DESC
 
-  s.homepage = "https://tokbox.com/developer/sdks/ios/"
+  s.homepage = "https://tokbox.com/developer/sdks/ios/reference/"
   #s.homepage         = 'https://github.com/IGitGotIt/BLink2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'IGitGotIt' => 'jshah.jshah@gmail.com' }
 
   #s.source           = { :git => 'https://github.com/IGitGotIt/BLink2.git', :tag => s.version.to_s }
-   s.source       = { :http => "https://github.com/IGitGotIt/BLink2/blob/master/tar-blink.tar.gz" }
+  
+   s.source       = { :http => "https://blink2.s3.us-east-2.amazonaws.com/tar-blink.tar.bz2" }
   
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'BLink2/BLink2/Classes/*.{h,m,swift}'
+  s.source_files = 'BLink2/Classes/*.{h,m,swift}'
   s.swift_version = '4.0'
   
   #s.source_files = 'BLink2/Classes/*.{h,m,swift}'
