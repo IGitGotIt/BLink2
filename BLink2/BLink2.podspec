@@ -33,7 +33,7 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   
   
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'BLink2/BLink2/Classes/*.{h,m,swift}'
   #s.source_files = 'BLink2/Classes/*.{h,m,swift}'
   s.swift_version = '4.0'

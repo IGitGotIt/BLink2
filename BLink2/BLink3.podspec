@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BLink3'
-  s.version          = '2.1.1'
+  s.version          = '4.2.0'
   s.summary          = 'A subclass on UILabel that provides a blink.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ This CocoaPod provides the ability to use a UILabel that may be started and stop
   s.source           = { :http => "https://blink2.s3.us-east-2.amazonaws.com/tar-blink.tar.bz2" }
 
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'BLink2/Classes/*.{h,m,swift}'
   s.swift_version = '4.0'
   
